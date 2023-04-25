@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "548246620262",
+    "project_id": "fir-app-sandra",
+    "storage_bucket": "fir-app-sandra.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:548246620262:android:e31139b7ca5a775e7d45a7",
+        "android_client_info": {
+          "package_name": "com.example.firebase_app_sandra"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "548246620262-83l1669v1hfuek78dj3tbb1p32vrri1o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-6QAmGBnsZq7YVKi3WtOGLQTxdSZRxEA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "548246620262-83l1669v1hfuek78dj3tbb1p32vrri1o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
