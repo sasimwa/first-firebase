@@ -10,38 +10,46 @@
         android:id="@+id/edtname"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="102dp"
         android:ems="10"
         android:hint="Enter Full Name"
         android:inputType="text"
         android:text="Name"
-        tools:layout_editor_absoluteX="84dp"
-        tools:layout_editor_absoluteY="102dp" />
+        app:layout_constraintEnd_toEndOf="@+id/edtail"
+        app:layout_constraintStart_toStartOf="@+id/edtail"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/edtail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="71dp"
         android:ems="10"
         android:hint="Enter Email"
         android:inputType="textEmailAddress"
-        tools:layout_editor_absoluteX="84dp"
-        tools:layout_editor_absoluteY="218dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtname" />
 
     <EditText
         android:id="@+id/edtpass"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="87dp"
         android:ems="10"
         android:hint="Enter Password"
         android:inputType="textPassword"
-        tools:layout_editor_absoluteX="87dp"
-        tools:layout_editor_absoluteY="343dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btnaccount"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="72dp"
         android:text="REGISTER ACCOUNT"
-        tools:layout_editor_absoluteX="99dp"
-        tools:layout_editor_absoluteY="460dp" />
+        app:layout_constraintStart_toStartOf="@+id/edtpass"
+        app:layout_constraintTop_toBottomOf="@+id/edtpass" />
 </androidx.constraintlayout.widget.ConstraintLayout>
